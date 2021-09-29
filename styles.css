@@ -82,3 +82,40 @@ table{
     margin: auto;
     font-size: 1em;
 }
+
+.contact-form{
+    margin: auto;
+    width: 500px;
+    border: solid 2px #ffb703;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+li{
+    color:#ffb703;
+    margin-bottom: 10px;
+}
+
+ul{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    text-align: left;
+}
+
+#submit{
+    background-color:#ffb703 ;
+}

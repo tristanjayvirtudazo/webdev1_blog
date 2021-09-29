@@ -3,28 +3,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
     <title>Contact Me</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td><h1>For more inquery or if you need help about coding and web development, Just contact me here.</h1></td>
-            <td>
+    <div class="container">
+        <div class="sidebar">
+            <ul class="navlink">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="headline">
+            <div class="form-content">
+                <h1 style="margin: auto;">Approach me here.</h1></td>
                 <form action="index.html" class="contact-form">
-                    <ul>
-                        <li>Name<input type="text"></li>
-                        <li>Location<input type="text"></li>
-                        <li>Email<input type="email"></li>
-                        <li>Message<input type="text"></li>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li>Name <br><input type="text"></li>
+                        <li>Location <br><input type="text"></li>
+                        <li>Email <br><input type="email"></li>
+                        <li>Message <br><input type="text"></li>
                         <li>
-                            <input type="submit">
+                            <input id="submit" type="submit">
                             <input type="reset">
                         </li>
                     </ul>
                 </form>
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
